@@ -1,0 +1,45 @@
+#title {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 30px;
+}
+#description {
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#scatterplot {
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+  display: block;
+}
+.dot {
+  fill: #4db6ac;
+  stroke: #004d40;
+  opacity: 0.7;
+}
+#tooltip {
+  position: absolute;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  pointer-events: none;
+}
+#legend {
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 30px;
+}
+.legend-item {
+  display: inline-block;
+  margin-right: 20px;
+}
+.legend-circle {
+  display: inline-block;
+  margin-right: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
